@@ -22,7 +22,7 @@
      <li>Animaciones hechas con AOS</li>    
   </ul>
 
-  <p>Desploy en Render</p>
+  <p>Desploy en Render:</p>
   https://desafio-frontend.onrender.com/
   <br>
 <p>Vista en distintos dispositivos:</p>

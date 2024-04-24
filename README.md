@@ -25,18 +25,14 @@
 
 
 <p>Vista en distintos dispositivos:</p>
-<div style="max-width: 500px;">
-  
-  !([Vista Desktop](https://res.cloudinary.com/dsuuinvqp/image/upload/v1713982645/Macbook-Air-localhost_cqcmds.png))
-</div>
-<div style="max-width: 500px;">
-  ![Vista desktop](https://res.cloudinary.com/dsuuinvqp/image/upload/v1713982645/Macbook-Air-localhost_cqcmds.png)
-</div>
+<img src="https://res.cloudinary.com/dsuuinvqp/image/upload/v1713982645/Macbook-Air-localhost_cqcmds.png" />
+<img src="https://res.cloudinary.com/dsuuinvqp/image/upload/v1713982627/iPad-PRO-11-localhost_dxgr5w.png" />
+<img src="https://res.cloudinary.com/dsuuinvqp/image/upload/v1713982622/iPhone-12-PRO-MAX-localhost_i5pzzl.png" />
 <div style="max-width: 400px; margin: auto; margin-bottom: 20px;">
-  <img src="https://res.cloudinary.com/dsuuinvqp/image/upload/v1713982645/Macbook-Air-localhost_cqcmds.png"  />
+  <img src="https://res.cloudinary.com/dsuuinvqp/image/upload/v1713982645/Macbook-Air-localhost_cqcmds.png" />
   </div>
   <div style="max-width: 250px; margin: auto; margin-bottom: 20px;">
-<img src="https://res.cloudinary.com/dsuuinvqp/image/upload/v1713982627/iPad-PRO-11-localhost_dxgr5w.png"  />
+<img src="https://res.cloudinary.com/dsuuinvqp/image/upload/v1713982627/iPad-PRO-11-localhost_dxgr5w.png" />
 </div>
 <div style="max-width: 150px; margin: auto; margin-bottom: 20px;">
 <img src="https://res.cloudinary.com/dsuuinvqp/image/upload/v1713982622/iPhone-12-PRO-MAX-localhost_i5pzzl.png" />

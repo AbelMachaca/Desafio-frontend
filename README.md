@@ -13,15 +13,6 @@
     <li>Animaciones</li>   
   </ul>
 
-   <h2>Tecnologías utilizadas:</h2>
-       <ul>
-   <li>React + Vite</li>
-    <li>Bootstrap</li>
-    <li>CSS Module</li>
-    <li>Javascript</li>  
-     <li>Animaciones hechas con AOS</li>    
-  </ul>
-
   <p>Desploy en Render:</p>
   https://desafio-frontend.onrender.com/
   <br>

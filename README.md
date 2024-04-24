@@ -23,7 +23,7 @@
   </ul>
 
   <p>Desploy en Render</p>
-  [Domo - Desafío - Abel Machaca](https://desafio-frontend.onrender.com/)
+  https://desafio-frontend.onrender.com/
   <br>
 <p>Vista en distintos dispositivos:</p>
 <div style="max-width: 400px; margin: auto; margin-bottom: 20px;">

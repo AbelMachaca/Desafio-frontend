@@ -15,7 +15,7 @@
 
   <p>Desploy en Render:</p>
   
-  * ![Desafío Domo - Abel Machaca](https://desafio-frontend.onrender.com)
+  * [Desafío Domo - Abel Machaca](https://desafio-frontend.onrender.com)
   
   <br>
 <p>Vista en distintos dispositivos:</p>
@@ -30,7 +30,7 @@
 </div>
  
 
- 
+ ![Desafío Domo - Abel Machaca]([https://desafio-frontend.onrender.com](https://res.cloudinary.com/dsuuinvqp/image/upload/v1713982645/Macbook-Air-localhost_cqcmds.png))
 
 
 </div>

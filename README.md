@@ -26,6 +26,10 @@
 
 <p>Vista en distintos dispositivos:</p>
 <div style="max-width: 500px;">
+  
+  !([Vista Desktop](https://res.cloudinary.com/dsuuinvqp/image/upload/v1713982645/Macbook-Air-localhost_cqcmds.png))
+</div>
+<div style="max-width: 500px;">
   ![Vista desktop](https://res.cloudinary.com/dsuuinvqp/image/upload/v1713982645/Macbook-Air-localhost_cqcmds.png)
 </div>
 <div style="max-width: 400px; margin: auto; margin-bottom: 20px;">

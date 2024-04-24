@@ -23,10 +23,8 @@
   </ul>
 
   <p>Desploy en Render</p>
-  ![Domo - Desafío - Abel Machaca](https://desafio-frontend.onrender.com/)
-  
-
-
+  [Domo - Desafío - Abel Machaca](https://desafio-frontend.onrender.com/)
+  <br>
 <p>Vista en distintos dispositivos:</p>
 <div style="max-width: 400px; margin: auto; margin-bottom: 20px;">
   <img src="https://res.cloudinary.com/dsuuinvqp/image/upload/v1713982645/Macbook-Air-localhost_cqcmds.png" />

@@ -2,7 +2,7 @@
   <h1>Desafío - Maquetado de Página One Page</h1>
   <p>Este proyecto es mi solución al desafío de maquetado de una página one page proporcionada por DOMO. A continuación, encontrarás información sobre el desafío.</p>
 
-<p>Herramientas Utilizadas</p>
+<p>Herramientas Utilizadas:</p>
 <ul>
   <li>Tecnologías: React, Vite</li>
   <li>Librerías/Frameworks: Bootstrap, AOS</li>

@@ -4,7 +4,7 @@ import {
   InstagramLogo,
   FacebookLogo,
 } from "@phosphor-icons/react/dist/ssr";
-import styles from "./Footer.module.css";
+import "./Footer.css";
 
 const info = [
   {
@@ -18,27 +18,27 @@ const info = [
 
 const Footer = () => {
   return (
-    <div className={`${styles.container} ${"position-relative w-100 "}`}>
-      <footer className={`${styles.footerContainer} ${"d-flex justify-content-between "}`}>
-        <div className={`${styles.info} ${"d-flex flex-column w-100"}`}>
-          <p className={styles.title}>compleet labs</p>
-          <p className={styles.description}>
+    <div className={`containerFot ${"position-relative w-100 "}`}>
+      <footer className={`footerContainer ${"d-flex justify-content-between "}`}>
+        <div className={`info ${"d-flex flex-column w-100"}`}>
+          <p className="title">compleet labs</p>
+          <p className="description">
             Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
             nibh, ut fermentum massa justo sit amet risus. Donec ullamcorper
             nulla.
           </p>
-          <div className={`${styles.socials} ${"d-flex align-items-center"}`}>
-            <figure className={styles.socialIcon}>
+          <div className={`socials ${"d-flex align-items-center"}`}>
+            <figure className="socialIcon">
               <TwitterLogo size={32} weight="fill" />
             </figure>
 
-            <figure className={styles.socialIcon} >
+            <figure className="socialIcon" >
               <DribbbleLogo size={32}  />
             </figure>
-            <figure className={styles.socialIcon} >
+            <figure className="socialIcon" >
               <FacebookLogo size={32} weight="fill" />
             </figure>
-            <figure className={styles.socialIcon}>
+            <figure className="socialIcon">
               <InstagramLogo size={32} />
             </figure>
           </div>
@@ -64,17 +64,17 @@ const Footer = () => {
           </span>
 
           <span className="d-flex flex-column align-items-center justify-content-center ">
-            <p className={styles.case}>Case studies</p>
+            <p className="case caseStudies">Case studies</p>
             <ul className="d-flex flex-column " >
-              <li className={styles.disabled}>Swiss Airlines</li>
-              <li className={styles.disabled}>Google</li>
-              <li className={styles.disabled}>Apple</li>
-              <li className={styles.disabled}>Nike</li>
+              <li className="disabled">Swiss Airlines</li>
+              <li className="disabled">Google</li>
+              <li className="disabled">Apple</li>
+              <li className="disabled">Nike</li>
             </ul>
           </span>
 
           <span  className=" d-flex Contact flex-column align-items-center justify-content-center " >
-            <p>Contact me</p>
+            <p className="case">Contact me</p>
             <ul  className=" d-flex flex-column ">
               <li >
                 <a  href={`mailto:${info[0].email}`}>Email</a>

@@ -1,0 +1,32 @@
+.containerServices {
+  padding-top: 5rem !important;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.titleServices {
+  font-size: 2.45rem;
+}
+
+.paragraphInfoServices {
+  color: #8f959e;
+  padding-top: 1.2rem;
+  width: 100%;
+  max-width: 40rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-size: large;
+  line-height: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .containerServices {
+    max-width: 61rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .containerServices {
+    max-width: 75rem;
+  }
+}

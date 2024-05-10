@@ -1,62 +1,42 @@
-* {
-  font-family: "CircularStd", "Montserrat", sans-serif;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
-}
-
-
-.logo{
+.logo {
   text-wrap: nowrap;
 }
-.navLinks{
+.navLinks {
   gap: 2rem;
   display: flex;
-
-  & a {
-    color: #8f959e;
-    transition: 200ms ease-in-out;
-    text-decoration: none;
-  
-    &:hover {
-      color: white;
-    }
 }
+
+.navLinks a {
+  color: #8f959e;
+  transition: 200ms ease-in-out;
+  text-decoration: none;
+}
+
+.navLinks a:hover {
+  color: white;
 }
 
 .hireUs {
   gap: 0.5rem;
   color: white;
-
-  & a {
-    color: white;
-  }
 }
 
-& a {
-  color: #8f959e;
-  transition: 200ms ease-in-out;
-  text-decoration: none;
-
-  &:hover {
-    color: white;
-  }
+.hireUs a {
+  color: white;
 }
 
 @media (max-width: 767px) {
-  .container {
+  .containerNavbar {
     position: relative;
   }
 
   .navLinks {
     display: none !important;
     font-size: x-large !important;
+  }
 
-    & svg {
-      display: none !important;
-    }
+  .navLinks svg {
+    display: none !important;
   }
 
   .open {
@@ -81,17 +61,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .hamburger figure {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+  }
 
-    & figure {
-      position: relative;
-      width: 2rem;
-      height: 2rem;
-
-      & svg {
-        width: 100%;
-        height: 100%;
-      }
-    }
+  .hamburger svg {
+    width: 100%;
+    height: 100%;
   }
 
   .iconIcon {
@@ -113,7 +92,7 @@
 }
 
 @media (min-width: 768px) {
-  .container {
+  .containerNavbar {
     max-width: 61rem;
     padding: 0 2rem;
   }
@@ -124,18 +103,8 @@
 }
 
 @media (min-width: 1024px) {
-  .container {
+  .containerNavbar {
     max-width: 75rem;
     padding: 0 1rem;
   }
 }
-
-
-
-
-
-
-
-
-
-

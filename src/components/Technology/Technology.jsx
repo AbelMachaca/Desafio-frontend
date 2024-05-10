@@ -5,11 +5,11 @@ import NodeJs from "../../SVG/NodeJs";
 import Angular from "../../SVG/Angular";
 import Python from "../../SVG/Python";
 
-import style from "./Technology.module.css";
+import "./Technology.css";
 
 const Technology = () => {
   return (
-    <div className={`${style.container} ${"position-relative w-100" }`} id="technology">
+    <div className={`containerTechnology ${"position-relative w-100" }`} id="technology">
       <section>
         <span>
           <h2>We use cutting edge technology</h2>
@@ -22,7 +22,7 @@ const Technology = () => {
             faucibus dolor auctor.
           </p>
         </span>
-        <div className={style.technologies} >
+        <div className="technologies" >
           <figure>
             <Html />
           </figure>

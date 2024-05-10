@@ -1,0 +1,112 @@
+* {
+  font-family: "CircularStd", "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.containerTechnology {
+  background-color: var(--bg-blue);
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+  top: -4rem;
+  z-index: 1;
+}
+
+.containerTechnology section {
+  position: relative;
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.containerTechnology section span {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  max-width: 40rem;
+}
+
+.containerTechnology section span h2 {
+  font-family: sans-serif !important;
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+  width: 100%;
+}
+
+.containerTechnology section span p {
+  font-family: sans-serif !important;
+  font-size: 1rem;
+  max-width: 36rem;
+  letter-spacing: 0.5px;
+  color: #9bb8ff;
+  line-height: 2rem;
+}
+
+.containerTechnology section .technologies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.containerTechnology section .technologies figure {
+  width: 4.5rem;
+  height: 4.5rem;
+  display: flex;
+  color: white;
+}
+
+.containerTechnology section .technologies figure svg {
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .containerTechnology section {
+    max-width: 61rem;
+    padding-top: 3.5rem !important;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .containerTechnology section span h2 {
+    font-size: 2.4rem;
+  }
+
+  .containerTechnology section span p {
+    font-size: 1.2rem;
+  }
+
+  .containerTechnology section .technologies {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .containerTechnology section {
+    padding-top: 5rem !important;
+    max-width: 75rem;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 10rem;
+  }
+
+  .containerTechnology section span h2 {
+    font-size: 2.5rem;
+  }
+
+  .containerTechnology section .technologies {
+    grid-template-columns: repeat(2, 1fr);
+    padding-right: 2rem;
+  }
+}

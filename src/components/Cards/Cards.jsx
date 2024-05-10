@@ -1,4 +1,4 @@
-import style from "./Cards.module.css";
+import "./Cards.css";
 
 const Cards = () => {
   const URL =
@@ -7,8 +7,8 @@ const Cards = () => {
     "Maecenas sed diam eget risus varius blandit sit amet non magna.";
 
   return (
-    <div className={` ${style.container} ${"position-relative w-100 "}`}>
-      <div className={` ${style.card} ${"d-flex w-100 p-4 overflow-hidden "}`}>
+    <div className={`containerCards ${"position-relative w-100 "}`}>
+      <div className={`cardCs ${"d-flex w-100 p-4 overflow-hidden "}`}>
         <section>
           <span className="d-flex flex-column w-100 text-white ">
             <h3>Get in touch with us</h3>
@@ -18,7 +18,7 @@ const Cards = () => {
         </section>
       </div>
 
-      <div className={` ${style.card} ${"d-flex  w-100 p-4 overflow-hidden text-white"}`}>
+      <div className={`cardCs ${"d-flex  w-100 p-4 overflow-hidden text-white"}`}>
         <section>
           <span className="d-flex flex-column w-100">
             <h3>Our Projects</h3>

@@ -2,7 +2,7 @@ import Tnw from "../../SVG/Tnw";
 import Google from "../../SVG/Google";
 import Nike from "../../SVG/Nike";
 import Airbnb from "../../SVG/Airbnb";
-import styles from "./Cases.module.css";
+import "./Cases.css";
 import Africa from "../../SVG/Africa";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -15,7 +15,7 @@ AOS.init({
 
 const Cases = () => {
   return (
-    <div className={` ${styles.container} ${"position-relative w-100 bg-white"}`}>
+    <div className={`containerCases ${"position-relative w-100 bg-white"}`}>
       <section className="position-relative w-100 d-flex flex-column align-items-center">
         <h2>Clients we worked with</h2>
 

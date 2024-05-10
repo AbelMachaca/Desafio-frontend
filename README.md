@@ -2,6 +2,16 @@
   <h1>Desafío - Maquetado de Página One Page</h1>
   <p>Este proyecto es mi solución al desafío de maquetado de una página one page proporcionada por DOMO. A continuación, encontrarás información sobre el desafío.</p>
 
+<p>Herramientas Utilizadas:</p>
+<ul>
+  <li>Tecnologías: React, Vite</li>
+  <li>Librerías/Frameworks: Bootstrap, AOS</li>
+  <li>Almacenamiento de Imágenes: Cloudinary</li>
+</ul>
+
+
+
+
   <p>Contenido aplicado:</p>
 
   <ul>
@@ -13,17 +23,13 @@
     <li>Animaciones</li>   
   </ul>
 
-   <h2>Tecnologías utilizadas:</h2>
-       <ul>
-   <li>React + Vite</li>
-    <li>Bootstrap</li>
-    <li>CSS Module</li>
-    <li>Javascript</li>  
-     <li>Animaciones hechas con AOS</li>    
-  </ul>
   
 
-
+  <p>Desploy en Render:</p>
+  
+  * [Desafío Domo - Abel Machaca](https://desafio-frontend.onrender.com)
+  
+  <br>
 <p>Vista en distintos dispositivos:</p>
 <div style="max-width: 400px; margin: auto; margin-bottom: 20px;">
   <img src="https://res.cloudinary.com/dsuuinvqp/image/upload/v1713982645/Macbook-Air-localhost_cqcmds.png" />
@@ -34,8 +40,6 @@
 <div style="max-width: 150px; margin: auto; margin-bottom: 20px;">
 <img src="https://res.cloudinary.com/dsuuinvqp/image/upload/v1713982622/iPhone-12-PRO-MAX-localhost_i5pzzl.png" />
 </div>
- 
-
  
 
 
